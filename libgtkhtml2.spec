@@ -14,7 +14,6 @@ Source0: http://ftp.gnome.org/pub/GNOME/sources/%{pkgname}/%{pkgname}-%{version}
 License: LGPL
 Url: http://www.gnome.org/
 Group: System/Libraries
-BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires: gail-devel >= %{req_gail_version}
 BuildRequires: gnome-vfs2-devel
 BuildRequires: libsm-devel
