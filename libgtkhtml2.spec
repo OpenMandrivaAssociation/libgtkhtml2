@@ -8,7 +8,7 @@
 Summary: GtkHTML 2
 Name: %{pkgname}%{api_version}
 Version: 2.11.1
-Release: %mkrel 1
+Release: %mkrel 2
 Source0: http://ftp.gnome.org/pub/GNOME/sources/%{pkgname}/%{pkgname}-%{version}.tar.bz2
 
 License: LGPL
