@@ -10,6 +10,7 @@ Name: %{pkgname}%{api_version}
 Version: 2.11.1
 Release: %mkrel 3
 Source0: http://ftp.gnome.org/pub/GNOME/sources/%{pkgname}/%{pkgname}-%{version}.tar.bz2
+Patch0: libgtkhtml-2.11.1-wformat.patch
 
 License: LGPL
 Url: http://www.gnome.org/
@@ -44,6 +45,7 @@ GtkHTML2 development files
 
 %prep
 %setup -q -n %{pkgname}-%{version}
+%patch0 -p1 -b .wformat
 
 %build
 
