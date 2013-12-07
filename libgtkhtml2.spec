@@ -9,7 +9,7 @@
 Summary:	GtkHTML 2
 Name:		%{pkgname}%{api}
 Version:	2.11.1
-Release:	12
+Release:	13
 License:	LGPLv2
 Url:		http://www.gnome.org/
 Group:		System/Libraries
