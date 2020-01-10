@@ -41,7 +41,7 @@ GtkHTML2 development files
 
 %prep
 %setup -qn %{pkgname}-%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 %configure2_5x --disable-static
