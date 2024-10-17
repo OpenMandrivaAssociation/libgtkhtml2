@@ -11,7 +11,7 @@ Name:		%{pkgname}%{api}
 Version:	2.11.1
 Release:	17
 License:	LGPLv2
-Url:		http://www.gnome.org/
+Url:		https://www.gnome.org/
 Group:		System/Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/libgtkhtml/%{url_ver}/%{pkgname}-%{version}.tar.bz2
 Patch0:		libgtkhtml-2.11.1-wformat.patch
