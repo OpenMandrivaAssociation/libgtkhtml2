@@ -15,6 +15,11 @@ Url:		https://www.gnome.org/
 Group:		System/Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/libgtkhtml/%{url_ver}/%{pkgname}-%{version}.tar.bz2
 Patch0:		libgtkhtml-2.11.1-wformat.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(gail)
 BuildRequires:	pkgconfig(gnome-vfs-2.0)
 BuildRequires:	pkgconfig(gtk+-2.0)
